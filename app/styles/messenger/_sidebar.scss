@@ -1,0 +1,27 @@
+$green-light: rgb(45, 215, 134);
+$orange-medium: rgb(228, 104, 25);
+
+sidebar {
+  background: $blue;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  width: 25%;
+
+  contact {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    min-height: 50px;
+    padding: $default-margin;
+    transition: background 500ms;
+
+    &:hover {
+      background-color: $green;
+    }
+
+    .item {
+      padding-left: $default-margin;
+    }
+  }
+}

@@ -1,0 +1,14 @@
+messgenger {
+  background: $blue;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  justify-content: space-around;
+  margin: 5vh auto;
+  width: 90vw;
+
+  @import 'sidebar';
+  @import 'chat-form';
+  @import 'send';
+}

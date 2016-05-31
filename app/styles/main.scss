@@ -1,0 +1,9 @@
+@import 'colors';
+@import 'vars';
+@import 'messenger';
+
+body {
+  background-color: $background--dark;
+  color: $font-color--dark;
+  font-family: Helvetica, sans-serif;
+}

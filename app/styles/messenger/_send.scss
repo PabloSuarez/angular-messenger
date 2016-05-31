@@ -1,0 +1,32 @@
+$dark-orange: rgb(255, 162, 38);
+
+send-message {
+  background-color: $dark-orange;
+  display: flex;
+  height: 200px;
+  padding: $default-margin $default-margin * 2;
+
+  .text,
+  .send {
+    background-color: transparent;
+    border: 0;
+    border-radius: 2px;
+    outline: none;
+  }
+
+  .text {
+    border-bottom: solid 1px $white;
+    font-size: 22px;
+    transition: border 500ms;
+    width: calc(100% - 100px);
+  }
+
+  .send {
+    border: solid 1px $white;
+    color: $white;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+    width: 100px;
+  }
+}

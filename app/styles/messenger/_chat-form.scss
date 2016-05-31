@@ -1,0 +1,28 @@
+$blue-light: rgb(39, 98, 250);
+$gray-light: rgb(64, 82, 65);
+$white-green: rgb(201, 240, 203);
+
+chat-form {
+  align-items: flex-start;
+  background: $green;
+  display: flex;
+  flex-direction: column;
+  overflow-y: scroll;
+  padding: $default-margin;
+
+  chat-message {
+    background-color: $gray-light;
+    border-radius: 5px;
+    color: $green;
+    margin: $default-margin / 2 0;
+    max-width: 85%;
+    padding: $default-padding / 2 0;
+
+    &.right {
+      align-self: flex-end;
+      background-color: $blue-light;
+      color: $white-green;
+      text-align: right;
+    }
+  }
+}
